@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T18:15:38.530Z" agent="5.0 (Windows)" etag="kB6loxou1Nq0F7ZG7udc" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T20:05:47.148Z" agent="5.0 (Windows)" etag="XZRRuR4tgQwFDHIXjRM3" version="15.8.7" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="918" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="445" y="3680" width="120" height="30" as="geometry" />
+          <mxGeometry x="555.25" y="5840" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0.905;entryY=0.5;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" target="34" edge="1">
           <mxGeometry width="100" height="100" as="geometry">
@@ -324,6 +324,9 @@
             <mxPoint x="170" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-169" target="X2jSaSAsYcrVQsIB-k0L-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="X2jSaSAsYcrVQsIB-k0L-169" value="&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Conteo de transacciones Mensuales&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&amp;lt;= Lim Max Parametrizado&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="540" y="3150" width="260" height="100" as="geometry" />
         </mxCell>
@@ -379,6 +382,196 @@
         </mxCell>
         <mxCell id="X2jSaSAsYcrVQsIB-k0L-198" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="453" y="2250" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="3350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="3500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670.5" y="3599.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-199" value="¿Es tarjeta Visa o Mastercard?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540" y="3450" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-201" target="X2jSaSAsYcrVQsIB-k0L-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-201" target="X2jSaSAsYcrVQsIB-k0L-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-209" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="3348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-201" value="&lt;div&gt;-Información de pago&lt;/div&gt;&lt;div&gt;con tarjeta&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="3308" width="199" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-203" value="&lt;div&gt;Número Tarjeta&lt;/div&gt;&lt;div&gt;Fecha Vencimiento&lt;/div&gt;&lt;div&gt;Nombre titular&lt;/div&gt;&lt;div&gt;Código de seguridad&lt;/div&gt;&lt;div&gt;Cargo&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="880" y="3298" width="20" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-210" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="495" y="3480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-217" target="X2jSaSAsYcrVQsIB-k0L-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-217" value="&lt;div align=&quot;left&quot;&gt;Validar datos de Tarjeta&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;div&gt;Tarjeta Activa&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;Saldo Disponible&lt;/div&gt;&lt;/li&gt;&lt;li&gt;Operaciones Internet&lt;/li&gt;&lt;li&gt;No este vencida&lt;/li&gt;&lt;li&gt;Validacion de titular&lt;/li&gt;&lt;li&gt;Validacion CVV&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="3602" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-218">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="3499.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-218" target="X2jSaSAsYcrVQsIB-k0L-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-218" value="Validación Tarjeta es True" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="540.5" y="3780" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-221" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="495" y="3810" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-222" target="X2jSaSAsYcrVQsIB-k0L-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-222" value="&lt;div align=&quot;left&quot;&gt;Validar que tarjeta no sea emitida en&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;div&gt;Paises de alto riesgo&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590.75" y="3930" width="159.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-224" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="3890" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="3830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-225" target="X2jSaSAsYcrVQsIB-k0L-230">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-225" value="Validación emisión Tarjeta es True" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="554.75" y="4050" width="230.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-227" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="4070" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-230" target="X2jSaSAsYcrVQsIB-k0L-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-230" value="&lt;div align=&quot;left&quot;&gt;Validacion Tarjeta Promerica&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;div&gt;Es tarjeta promerica &lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;El titular de la tarjeta es el mismo titular la cuenta a enviar&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="4180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-232" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="670" y="4140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="4090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-233" target="X2jSaSAsYcrVQsIB-k0L-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-233" value="&lt;div&gt;Validación Tarjeta Promerica &lt;br&gt;&lt;/div&gt;&lt;div&gt;es True&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="555.25" y="4350" width="230.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-236" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="510" y="4370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-237" target="X2jSaSAsYcrVQsIB-k0L-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-237" value="&lt;div&gt;Guardar datos &lt;br&gt;&lt;/div&gt;&lt;div&gt;del envio&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620" y="4480" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-239" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="671" y="4440" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-260" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-240" target="X2jSaSAsYcrVQsIB-k0L-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-240" value="&lt;div&gt;Realizar&lt;/div&gt;&lt;div&gt;Cargo&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620" y="4650" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-242" target="X2jSaSAsYcrVQsIB-k0L-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-242">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670.3333333333335" y="4900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-242" value="&lt;div&gt;Ingresar monto&lt;/div&gt;&lt;div&gt;enviado a cuenta&lt;/div&gt;&lt;div&gt;Transitoria &lt;br&gt;&lt;/div&gt;&lt;div&gt;por cobrar&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="4910" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-247" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-244" target="X2jSaSAsYcrVQsIB-k0L-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-244" value="&lt;div&gt;Deposito en efectivo a &lt;br&gt;&lt;/div&gt;&lt;div&gt;Número de cuenta&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620" y="5072" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-246" target="X2jSaSAsYcrVQsIB-k0L-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-246" target="X2jSaSAsYcrVQsIB-k0L-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-253" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-246" target="X2jSaSAsYcrVQsIB-k0L-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-246" value="&lt;div&gt;Enviar tarifa de envio a cuemta&lt;/div&gt;&lt;div&gt;contable&lt;/div&gt;&lt;div&gt;&quot;Envios Promerica&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="5220" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-248" target="X2jSaSAsYcrVQsIB-k0L-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-248" value="&lt;div&gt;Enviar 2% tarifa de envio a cuemta&lt;/div&gt;&lt;div&gt;contable&lt;/div&gt;&lt;div&gt;&quot;Tasa de Intercambio&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="425" y="5410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-249" target="X2jSaSAsYcrVQsIB-k0L-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-249" value="&lt;div&gt;Enviar $0.12 tarifa de envio a cuemta&lt;/div&gt;&lt;div&gt;contable&lt;/div&gt;&lt;div&gt;&quot;Cybersource&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="5410" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-250" target="X2jSaSAsYcrVQsIB-k0L-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-250" value="&lt;div&gt;Enviar 100%-2%-(($0.12)*100/ (tarifa)) de envio a cuemta&lt;/div&gt;&lt;div&gt;contable&lt;/div&gt;&lt;div&gt;&quot;Ingreso de Banca Personas&quot;&lt;/div&gt;&lt;div&gt;(Cuenta Nueva)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="780" y="5410" width="229.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-254" target="X2jSaSAsYcrVQsIB-k0L-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-254">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="4388.333333333333" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-254" value="&lt;div&gt;Transacción&lt;/div&gt;&lt;div&gt;Exitosa&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="620.5" y="4780" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-259" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="676" y="4880" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-262" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="530" y="4800" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="X2jSaSAsYcrVQsIB-k0L-263" target="X2jSaSAsYcrVQsIB-k0L-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-263" value="&lt;div align=&quot;left&quot;&gt;Generar Registro log de transacciones:&lt;ul&gt;&lt;li&gt;Fecha y hora de operación.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Número de operación.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Remitente.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; País remitente.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Número de tarjeta.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Destinatario.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Cuenta destino.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Monto enviado.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Tarifa.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; IVA.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Motivo.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Estado (Procesada, Reversada, Error)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="542.75" y="5710" width="255.5" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="X2jSaSAsYcrVQsIB-k0L-267" value="&lt;div align=&quot;left&quot;&gt;Salida hacia Gateway:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Fecha y hora de operación.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Número de operación.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Remitente.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; País remitente.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Número de tarjeta (ofuscado).&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Destinatario.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Cuenta destino (ofuscada).&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Monto enviado.&lt;/li&gt;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Tarifa de envío (con IVA).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="565" y="6010" width="210" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
